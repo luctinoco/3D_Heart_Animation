@@ -93,6 +93,6 @@ with tqdm(total=total_frames) as pbar:
     )
 
     # Save the animation as a GIF
+    ani.save('heart_animation.gif', writer='pillow', fps=20, dpi=120, savefig_kwargs={'facecolor': 'white'})
 
 # By: Lucas F. T. Leonardo
-    ani.save('heart_animation.gif', writer='pillow', fps=20, dpi=120, savefig_kwargs={'facecolor': 'white'})
